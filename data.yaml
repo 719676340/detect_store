@@ -1,0 +1,13 @@
+# path: ../datasets/coco128  # dataset root dir
+# train: images/train2017  # train images (relative to 'path') 128 images
+# val: images/train2017  # val images (relative to 'path') 128 images
+# test:  # test images (optional)
+
+
+# path: 
+train: D:/数据挖掘/动手学深度学习/code/yolov8/datasets/train/images
+val: D:/数据挖掘/动手学深度学习/code\yolov8/datasets/valid/images
+# test: test/images
+
+nc: 3
+names: ['granola', 'floss','mouse']
