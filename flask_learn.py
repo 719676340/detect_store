@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 model = YOLO("runs/detect/train10/weights/best.pt")
 
-
+# 测试
 @app.route("/")
 def hello_world():
     camera = cv2.VideoCapture(0)
